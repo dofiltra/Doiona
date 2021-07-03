@@ -1,0 +1,7 @@
+{
+  "name": "Doiona",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
