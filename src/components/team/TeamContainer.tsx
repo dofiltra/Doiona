@@ -14,6 +14,7 @@ import {
   IonButton,
 } from "@ionic/react";
 
+
 interface ContainerProps {
   name: string;
 }
@@ -79,11 +80,7 @@ const TeamContainer: React.FC<ContainerProps> = ({ name }) => {
           </IonCol>
         </IonRow>
 
-        {/* <IonRow>
-          <IonCol size="6">ion-col size="6"</IonCol>
-          <IonCol>ion-col</IonCol>
-          <IonCol>ion-col</IonCol>
-        </IonRow>
+        {/* 
 
         <IonRow>
           <IonCol size="3">ion-col size="3"</IonCol>
