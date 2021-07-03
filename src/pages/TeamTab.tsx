@@ -6,9 +6,9 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import TeamContainer from "../components/team/TeamContainer";
-import "./Tab1.css";
+import "./TeamTab.css";
 
-const Tab1: React.FC = () => {
+const TeamTab: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
@@ -16,10 +16,10 @@ const Tab1: React.FC = () => {
           <IonTitle>Team</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent >
+      <IonContent>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Team 1</IonTitle>
+            <IonTitle size="large">Team</IonTitle>
           </IonToolbar>
         </IonHeader>
         <TeamContainer name="Team" />
@@ -28,4 +28,4 @@ const Tab1: React.FC = () => {
   );
 };
 
-export default Tab1;
+export default TeamTab;

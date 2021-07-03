@@ -20,16 +20,66 @@ interface ContainerProps {
 
 const TeamContainer: React.FC<ContainerProps> = ({ name }) => {
   return (
-    <div>
+    <>
       <IonGrid>
         <IonRow>
-          <IonCol>1</IonCol>
-          <IonCol>2</IonCol>
-          <IonCol>3</IonCol>
-          <IonCol>4</IonCol>
+          <IonCol>
+            <IonRow>
+              <IonCard>
+                <div className="ion-text-center">
+                  <img src="https://amarkets.today/res/land/marketing/img/expert_artem_zvezdin.png" />
+                </div>
+                <IonCardHeader>
+                  <IonCardSubtitle>Главный трейдер</IonCardSubtitle>
+                  <IonCardTitle>Николай Овсянников</IonCardTitle>
+                </IonCardHeader>
+                <IonCardContent>
+                  Founded in 1829 on an isthmus between Lake Monona and Lake
+                  Mendota, Madison was named the capital of the Wisconsin
+                  Territory in 1836.
+                </IonCardContent>
+              </IonCard>
+            </IonRow>
+          </IonCol>
+          <IonCol>
+            <IonRow>
+              <IonCard>
+                <div className="ion-text-center">
+                  <img src="https://amarkets.today/res/land/marketing/img/expert_gleb_zadoya.png" />
+                </div>
+                <IonCardHeader>
+                  <IonCardSubtitle>Крипто трейдер</IonCardSubtitle>
+                  <IonCardTitle>Глеб Задоя</IonCardTitle>
+                </IonCardHeader>
+                <IonCardContent>
+                  Founded in 1829 on an isthmus between Lake Monona and Lake
+                  Mendota, Madison was named the capital of the Wisconsin
+                  Territory in 1836.
+                </IonCardContent>
+              </IonCard>
+            </IonRow>
+          </IonCol>
+          <IonCol>
+            <IonRow>
+              <IonCard>
+                <div className="ion-text-center">
+                  <img src="https://amarkets.today/res/land/marketing/img/expert_uriy_bularga.png" />
+                </div>
+                <IonCardHeader>
+                  <IonCardSubtitle>Биржевой трейдер</IonCardSubtitle>
+                  <IonCardTitle>Юрий Буларга</IonCardTitle>
+                </IonCardHeader>
+                <IonCardContent>
+                  Founded in 1829 on an isthmus between Lake Monona and Lake
+                  Mendota, Madison was named the capital of the Wisconsin
+                  Territory in 1836.
+                </IonCardContent>
+              </IonCard>
+            </IonRow>
+          </IonCol>
         </IonRow>
 
-        <IonRow>
+        {/* <IonRow>
           <IonCol size="6">ion-col size="6"</IonCol>
           <IonCol>ion-col</IonCol>
           <IonCol>ion-col</IonCol>
@@ -149,8 +199,9 @@ const TeamContainer: React.FC<ContainerProps> = ({ name }) => {
             ion-col size="3" size-lg
           </IonCol>
         </IonRow>
+      */}
       </IonGrid>
-    </div>
+    </>
   );
 };
 
